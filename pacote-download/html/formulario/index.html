@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+</head>
+<body>
+    
+    <form action="cadastro.php" >
+        <h1>Primeiro formulario</h1>
+        <p><label for="inome">nome:</label> 
+            <input type="text" name="nome" id="inome">
+        </p>
+        <p><label for="isobrenome">sobrenome:</label>
+            <input type="text" name="sobrenome" id="isobrenome">
+        </p>
+        
+        <input type="submit" value="Enviar">
+    </form>
+
+    <form action="cadastro.php" method="post" autocomplete="on">
+        <h1>Segundo formulario</h1>
+        <p>
+            <label for="iemail">Email:</label>
+            <input type="email" name="email" id="iemail" required minlength="5" maxlength="15" size="10" placeholder="Nome do usuario" autocomplete="username">
+        </p>
+        <p>
+            <label for="ipass">Password:</label>
+            <input type="password" name="password" id="ipass" required minlength="8" maxlength="15" size="8" placeholder="Senha do usuario" autocomplete="current-password">
+        </p>
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>

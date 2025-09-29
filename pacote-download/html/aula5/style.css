@@ -1,0 +1,37 @@
+/*
+    em html e id em css #
+    em html e class em css .
+    em css id é mais específico que class   
+*/
+
+body{
+    background-color: aqua;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: black;
+    background-color: lightsalmon;
+}
+
+/*poderia ter tirado h1*/
+h1#principal{
+    color: darkblue;
+    background-color: lightgreen;
+    text-align: center;
+}
+
+.basico{
+    color: darkred;
+    background-color: lightyellow;
+}
+
+.intermediario{
+    color: yellow;
+    background-color: yellowgreen;
+}
+
+.avancado{
+    color: darkorchid;
+    background-color: lightpink;
+}

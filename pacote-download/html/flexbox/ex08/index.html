@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <STYle>
+        .container{
+            display: flex;
+            background-color: lightblue;
+            flex-flow: row wrap;
+            align-items: flex-start;
+            height: 400px;
+        }
+
+        .item{
+            background-color: lightgray;
+            border: 1px solid black;
+            text-align: center;
+            padding: 20px;
+        }
+
+        #l1{
+            order: 0;
+        }
+
+        #l3{
+            align-self: flex-end;
+        }
+   
+        #l5{
+            align-self: center;
+        }
+        #l6{
+            align-self: stretch;
+        }
+
+    </STYle>
+</head>
+<body>
+    <div class="container">
+        <div class="item" id="l1">A</div>
+        <div class="item" id="l2">B</div>
+        <div class="item" id="l3">C</div>
+        <div class="item" id="l4">D</div>
+        <div class="item" id="l5">E</div>
+        <div class="item" id="l6" >F</div>
+        <div class="item" id="l7">G</div>
+    </div>
+</body>
+</html>
